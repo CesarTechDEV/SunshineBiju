@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root{
+    --fonte:'Lato', sans-serif;
+    --corbg:  rgba(255, 255, 255, 0.336);
+    --corbotoes: rgb(29, 250, 0);
+    --corhover: rgba(255, 255, 255);
+}
+
+body{
+    background-image:url('paisagem-do-deserto-em-marrocos_23-2148129846.jpg');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margein: 30px;
+
+    background-size: cover; /* A imagem de fundo cobrirá todo o elemento */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
+    
+}
+
+div{
+    background-color: var(--corbg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px;
+ }
+ 
+h1{
+    font-size: 2rem;
+    color: rgb(155, 86, 22);
+       
+ }
+ 
+p{
+    margin: 10px 0px 20px 0px ;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px ;
+    font-family: var(--Fonte);
+    font-weight: bold
+ }
+ 
+   a{
+    background: rgba(4, 5, 0, 0.877);
+    color: #ffffffff;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 10px;
+    border-radius: 40px;
+    width: 90%;
+    padding: 20px;
+    transform-style: preserve-3d;
+ }
+ 
+   a:hover{
+    background: rgb(180, 18, 185);
+ 
+ }
+
+ 
